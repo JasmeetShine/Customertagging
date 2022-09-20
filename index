@@ -1,4 +1,4 @@
 <?php
 $json_str = file_get_contents('php://input');
-console.log($json_str);
+file_put_contents("data.txt",$json_str);
 ?>
